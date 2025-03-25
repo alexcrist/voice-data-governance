@@ -92,6 +92,11 @@ const COLUMNS = [
         category: CATEGORIES.INSTITUTIONAL_INFORMATION,
     },
     {
+        name: "Data Storage Location",
+        column: "R",
+        category: CATEGORIES.INSTITUTIONAL_INFORMATION,
+    },
+    {
         name: "URL",
         column: "F",
         category: CATEGORIES.INSTITUTIONAL_INFORMATION,

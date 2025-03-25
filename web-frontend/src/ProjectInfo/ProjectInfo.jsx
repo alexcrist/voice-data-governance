@@ -138,6 +138,26 @@ const ProjectInfo = () => {
                 ]}
             />
             <CardSection
+                title="Submit a Dataset"
+                descriptions={[
+                    <div
+                        className={styles.submitDatasetTitle}
+                        key="submit-dataset"
+                    >
+                        If you would like to submit a dataset that has not yet
+                        been included in this collection, please reach out to us
+                        by filling out the following form:{" "}
+                        <a
+                            className={styles.submitDatasetLink}
+                            target="_"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSenvUGKsAjEKCUwGjVLbkrc7bfi-TmXhqaDZPGpyROGr7Dpzw/viewform"
+                        >
+                            https://docs.google.com/forms/d/e/1FAIpQLSenvUGKsAjEKCUwGjVLbkrc7bfi-TmXhqaDZPGpyROGr7Dpzw/viewform
+                        </a>
+                    </div>,
+                ]}
+            ></CardSection>
+            <CardSection
                 title="Contact"
                 descriptions={[
                     <>
